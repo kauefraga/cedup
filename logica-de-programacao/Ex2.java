@@ -2,7 +2,6 @@
  * Kauê Fraga Rodrigues T. 254
  * Essa é solução do exercício 2 do encontro 2 (estrutura de repeticão e condição)
  */
-
 import java.util.Scanner;
 
 class Ex2 {
