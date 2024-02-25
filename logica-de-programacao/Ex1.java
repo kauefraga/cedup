@@ -28,6 +28,7 @@ class Ex1 {
             System.out.println("Você é um idoso!");
         }
 
+        // Zueira, não é necessário/não faz parte do exercício
         if (idade > 130) {
             System.out.println("Você já deve estar morto...");
         }

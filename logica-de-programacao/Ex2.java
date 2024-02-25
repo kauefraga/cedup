@@ -29,6 +29,7 @@ class Ex2 {
             System.out.println("Nota ótima!");
         }
 
+        // Zueira, não é necessário/não faz parte do exercício
         if (notaDaPesquisa > 10) {
             System.out.println("Acho que essa nota não é possível...");
         }
