@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cabecalho {
+  width: 100%;
+  padding: 12px 16px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  margin: 16px 0;
+}
+
+article > hr {
+  margin: 8px 0;
+}
+
+article > header {
+
+}
+
+article > header > h1 > span {
+  text-decoration: underline dashed;
+  color: darkviolet;
+}
+
+article > main {
+
+}
+
+article > * > p {
+  width: 18rem;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+
+#recomendacao {
+  border-left: 3px solid darkviolet;
+  padding-left: 8px;
+}
+
+@media (min-width: 768px) {
+  article > * > p {
+    width: 25rem;
+    flex-wrap: nowrap;
+  }
+}
