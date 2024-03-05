@@ -14,17 +14,11 @@ class Ex1 {
 
         if (idade >= 0 && idade <= 11) {
             System.out.println("Você é uma criança!");
-        }
-
-        if (idade >= 12 && idade <= 17) {
+        } else if (idade >= 12 && idade <= 17) {
             System.out.println("Você é um adolescente!");
-        }
-
-        if (idade >= 18 && idade <= 64) {
+        } else if (idade >= 18 && idade <= 64) {
             System.out.println("Você é um adulto!");
-        }
-
-        if (idade >= 65) {
+        } else {
             System.out.println("Você é um idoso!");
         }
 

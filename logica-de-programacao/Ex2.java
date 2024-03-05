@@ -14,17 +14,11 @@ class Ex2 {
 
         if (notaDaPesquisa >= 0 && notaDaPesquisa < 3) {
             System.out.println("Nota péssima!");
-        }
-
-        if (notaDaPesquisa >= 3 && notaDaPesquisa < 5) {
+        } else if (notaDaPesquisa >= 3 && notaDaPesquisa < 5) {
             System.out.println("Nota ruim!");
-        }
-
-        if (notaDaPesquisa >= 5 && notaDaPesquisa < 7) {
+        } else if (notaDaPesquisa >= 5 && notaDaPesquisa < 7) {
             System.out.println("Nota boa!");
-        }
-
-        if (notaDaPesquisa >= 7) {
+        } else {
             System.out.println("Nota ótima!");
         }
 
