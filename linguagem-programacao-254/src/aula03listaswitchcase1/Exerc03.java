@@ -10,7 +10,7 @@ import utils.Util;
 
 public class Exerc03 {
     public static void main(String[] args) {
-        int num = Util.InputInt("Digite um número de 1 a 12: ");
+        int num = Util.inputInt("Digite um número de 1 a 12: ");
 
         switch (num) {
             case 1:

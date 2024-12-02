@@ -14,9 +14,9 @@ import utils.Util;
 
 public class Exerc04 {
     public static void main(String[] args) {
-        int nota1 = Util.InputInt("Digite sua primeira nota (0 a 10): ");
-        int nota2 = Util.InputInt("Digite sua segunda nota (0 a 10): ");
-        int nota3 = Util.InputInt("Digite sua terceira nota (0 a 10): ");
+        int nota1 = Util.inputInt("Digite sua primeira nota (0 a 10): ");
+        int nota2 = Util.inputInt("Digite sua segunda nota (0 a 10): ");
+        int nota3 = Util.inputInt("Digite sua terceira nota (0 a 10): ");
 
         if ((nota1 < 0 || nota1 > 10) && (nota2 < 0 || nota2 > 10) && (nota3 < 0 || nota3 > 10)) {
             Util.print("Notas fora do intervalo permitido (0 a 10)");

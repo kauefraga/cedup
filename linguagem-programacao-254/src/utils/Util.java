@@ -3,11 +3,32 @@ package utils;
 import java.util.Scanner;
 
 public class Util {
-    public static int InputInt(String mensagem) {
+    public static String inputPalavraMinuscula(String mensagem) {
+        Scanner s = new Scanner(System.in);
+
+        System.out.println(mensagem);
+        return s.next().toLowerCase();
+    }
+
+    public static int inputInt(String mensagem) {
         Scanner s = new Scanner(System.in);
 
         System.out.println(mensagem);
         return s.nextInt();
+    }
+
+    public static float inputFloat(String mensagem) {
+        Scanner s = new Scanner(System.in);
+
+        System.out.println(mensagem);
+        return s.nextFloat();
+    }
+
+    public static String inputString(String mensagem) {
+        Scanner s = new Scanner(System.in);
+
+        System.out.println(mensagem);
+        return s.nextLine();
     }
 
     public static char inputChar(String mensagem) {
@@ -20,7 +41,7 @@ public class Util {
     /**
      * Esse método retorna true se o usuário digitar apenas S e false caso não digite S
      */
-    public static boolean InputSimNao(String mensagem) {
+    public static boolean inputSimNao(String mensagem) {
         Scanner s = new Scanner(System.in);
 
         System.out.println(mensagem + " (S/N) ");

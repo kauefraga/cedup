@@ -10,7 +10,7 @@ import utils.Util;
 
 public class Exerc03 {
     public static void main(String[] args) {
-        int num = Util.InputInt("Digite um número inteiro: ");
+        int num = Util.inputInt("Digite um número inteiro: ");
 
         if (num > 10 && num < 100) {
             System.out.println("O número é maior que 10 e menor que 100");

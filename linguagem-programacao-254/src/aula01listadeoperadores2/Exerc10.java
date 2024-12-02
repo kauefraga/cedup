@@ -6,17 +6,14 @@ package aula01listadeoperadores2;
 * palavra possui mais letras do que a segunda.
 * */
 
+import utils.Util;
+
 import java.util.Scanner;
 
 public class Exerc10 {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-
-        System.out.print("Digite uma palavra: ");
-        String palavra1 = s.next();
-
-        System.out.print("Digite outra palavra: ");
-        String palavra2 = s.next();
+        String palavra1 = Util.inputPalavraMinuscula("Digite uma palavra: ");
+        String palavra2 = Util.inputPalavraMinuscula("Digite outra palavra: ");
 
         boolean primeiraMaisLetras = palavra1.length() > palavra2.length();
 

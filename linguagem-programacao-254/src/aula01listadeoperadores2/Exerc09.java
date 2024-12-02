@@ -6,19 +6,14 @@ package aula01listadeoperadores2;
 * indicando se a primeira pessoa é mais nova do que a segunda.
 * */
 
-import java.util.Scanner;
+import utils.Util;
 
 public class Exerc09 {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+        int ano1 = Util.inputInt("Digite o ano de nascimento de uma pessoa: ");
+        int ano2 = Util.inputInt("Digite o ano de nascimento de outra pessoa: ");
 
-        System.out.print("Digite o ano de nascimento de uma pessoa: ");
-        int ano1 = s.nextInt();
-
-        System.out.print("Digite o ano de nascimento de outra pessoa: ");
-        int ano2 = s.nextInt();
-
-        boolean primeiraMaisNova = ano1 < ano2;
+        boolean primeiraMaisNova = ano1 > ano2; // ex.: 2010 > 1990
 
         System.out.println("A primeira pessoa é mais nova do que a segunda: " + primeiraMaisNova);
     }

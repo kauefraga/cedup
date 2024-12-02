@@ -9,17 +9,12 @@ package aula01listadeoperadores2;
 // scanner.next -> palavra (detecta caracter de espaço)
 // scanner.nextLine -> linha inteira
 
-import java.util.Scanner;
+import utils.Util;
 
 public class Exerc08 {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-
-        System.out.print("Digite um texto: ");
-        String string1 = s.nextLine();
-
-        System.out.print("Digite outro texto: ");
-        String string2 = s.nextLine();
+        String string1 = Util.inputString("Digite um texto: ");
+        String string2 = Util.inputString("Digite outro texto: ");
 
         boolean primeiraMenorQueSegunda = string1.length() < string2.length();
 

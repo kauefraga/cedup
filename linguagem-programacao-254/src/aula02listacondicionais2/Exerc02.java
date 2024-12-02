@@ -10,7 +10,7 @@ import utils.Util;
 
 public class Exerc02 {
     public static void main(String[] args) {
-        int num = Util.InputInt("Digite um número inteiro: ");
+        int num = Util.inputInt("Digite um número inteiro: ");
 
         if (num % 2 == 0 || num % 3 == 0) {
             System.out.println("O número é par ou múltiplo de 3");

@@ -6,17 +6,12 @@ informe o preço do primeiro e do segundo produto. Em seguida, compare os preço
 uma mensagem indicando se o preço do primeiro produto é menor ou igual ao do segundo.
 */
 
-import java.util.Scanner;
+import utils.Util;
 
 public class Exerc05 {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-
-        System.out.print("Informe o preço de um produto: ");
-        float preco1 = s.nextFloat();
-
-        System.out.print("Digite o preço de outro produto: ");
-        float preco2 = s.nextFloat();
+        float preco1 = Util.inputFloat("Informe o preço de um produto: ");
+        float preco2 = Util.inputFloat("Digite o preço de outro produto: ");
 
         boolean primeiroMenor = preco1 < preco2;
 

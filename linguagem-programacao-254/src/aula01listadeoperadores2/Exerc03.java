@@ -6,17 +6,12 @@ package aula01listadeoperadores2;
 * se elas são diferentes.
 * */
 
-import java.util.Scanner;
+import utils.Util;
 
 public class Exerc03 {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-
-        System.out.print("Digite um texto: ");
-        String s1 = s.nextLine();
-
-        System.out.print("Digite outro texto: ");
-        String s2 = s.nextLine();
+        String s1 = Util.inputString("Digite um texto: ");
+        String s2 = Util.inputString("Digite outro texto: ");
 
         boolean diferentes = !s1.equals(s2);
 

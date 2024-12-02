@@ -12,10 +12,10 @@ import utils.Util;
 
 public class Exerc04 {
     public static void main(String[] args) {
-        int idade = Util.InputInt("Informe sua idade: ");
+        int idade = Util.inputInt("Informe sua idade: ");
 
         if (idade >= 16) {
-            boolean possuiTitulo = Util.InputSimNao("Possui título de eleitor?");
+            boolean possuiTitulo = Util.inputSimNao("Possui título de eleitor?");
 
             if (possuiTitulo) {
                 System.out.println("A pessoa tem idade para votar e possui título de eleitor");
